@@ -8,7 +8,6 @@ async function run() {
     try {
         await client.connect();
         console.log("Connected correctly to server");
-
     } catch (err) {
         console.log(err.stack);
     }
